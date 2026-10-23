@@ -1,0 +1,55 @@
+HandyGrip 사용 약관 (End User License Agreement)
+Copyright (c) 2026 Jaem-Shin. All rights reserved.
+
+[한국어]
+
+1. 사용 허락
+   HandyGrip(이하 "소프트웨어")은 개인·회사·교육 목적에 관계없이 무료로 설치하고 사용할 수 있습니다.
+
+2. 금지 사항
+   다음 행위는 저작권자의 서면 허락 없이 할 수 없습니다.
+   - 소프트웨어를 수정하거나, 이를 바탕으로 다른 프로그램을 만드는 것
+   - 소프트웨어의 전부 또는 일부를 복사해 다른 곳에 재배포·판매·대여하는 것
+   - 역컴파일·역분석 등으로 소스 코드를 알아내려는 것
+   - 저작권 표시를 지우거나 바꾸는 것
+   소프트웨어를 공유하고 싶다면 공식 배포 페이지 링크를 알려 주세요.
+   https://github.com/Jaem-Shin/handygrip-gumball-for-autocad
+
+3. 보증 없음
+   소프트웨어는 "있는 그대로" 제공되며, 어떠한 보증도 하지 않습니다.
+   중요한 도면은 작업 전에 백업하세요. 소프트웨어 사용으로 생긴 손해에 대해 저작권자는 책임지지 않습니다.
+
+4. 상표
+   HandyGrip은 Robert McNeel & Associates와 관계없는 독립 프로젝트입니다.
+   Rhino, Rhinoceros는 Robert McNeel & Associates의 상표이며, "Gumball"은 동작 방식을 설명하기 위해서만 씁니다.
+   AutoCAD는 Autodesk, Inc.의 상표입니다.
+
+5. 약관 변경
+   이 약관은 새 버전과 함께 바뀔 수 있으며, 각 버전에는 함께 배포된 약관이 적용됩니다.
+
+
+[English]
+
+1. License grant
+   You may install and use HandyGrip (the "Software") free of charge for personal, commercial and educational purposes.
+
+2. Restrictions
+   Without prior written permission from the copyright holder, you may not:
+   - modify the Software or create derivative works based on it;
+   - copy, redistribute, sell, rent or sublicense all or any part of the Software;
+   - decompile, disassemble or otherwise reverse engineer the Software;
+   - remove or alter any copyright notice.
+   To share the Software, please share the official download page:
+   https://github.com/Jaem-Shin/handygrip-gumball-for-autocad
+
+3. No warranty
+   The Software is provided "as is", without warranty of any kind. Back up important drawings before use.
+   In no event shall the copyright holder be liable for any damages arising from the use of the Software.
+
+4. Trademarks
+   HandyGrip is an independent project and is not affiliated with or endorsed by Robert McNeel & Associates.
+   Rhino and Rhinoceros are trademarks of Robert McNeel & Associates; "Gumball" is used only to describe how the tool works.
+   AutoCAD is a trademark of Autodesk, Inc.
+
+5. Changes
+   These terms may change with new versions; each version is governed by the terms distributed with it.
