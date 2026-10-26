@@ -32,11 +32,20 @@
 
 ## 내려받기와 설치
 
-1. [Releases](https://github.com/Jaem-Shin/handygrip-gumball-for-autocad/releases)에서 **HandyGrip-x.y.z.zip**을 내려받습니다.
-2. AutoCAD를 닫고 압축을 푼 뒤, **HandyGrip.bundle** 폴더를 `%AppData%\Autodesk\ApplicationPlugins`에 넣습니다.
+**설치 프로그램 (권장)**
+
+1. [Releases](https://github.com/Jaem-Shin/handygrip-gumball-for-autocad/releases)에서 **HandyGrip-x.y.z-Setup.exe**를 내려받아 실행합니다.
+2. 첫 화면에서 언어(한국어/English)를 고르면 HandyGrip 화면도 그 언어로 시작합니다.
 3. AutoCAD를 켜면 상태 표시줄에 **HandyGrip ●**이 생깁니다. 객체를 선택하면 그립이 나타납니다.
 
-처음 불러올 때 "서명되지 않은 파일" 경고가 뜨면 **로드** 또는 **항상 로드**를 누르세요. 제거는 `HandyGrip.bundle` 폴더를 지우면 됩니다.
+관리자 권한 없이 현재 사용자에게만 설치됩니다. 서명되지 않은 설치 파일이라 Windows가 "PC 보호" 창을 띄우면 **추가 정보 → 실행**을 누르세요. 제거는 **설정 → 앱 → 설치된 앱 → HandyGrip (AutoCAD)**. 설정 파일은 남겨 두므로 다시 설치해도 이어서 씁니다.
+
+**압축 파일로 직접 설치**
+
+1. **HandyGrip-x.y.z.zip**을 내려받습니다.
+2. AutoCAD를 닫고 압축을 푼 뒤, **HandyGrip.bundle** 폴더를 `%AppData%\Autodesk\ApplicationPlugins`에 넣습니다. 제거는 그 폴더를 지우면 됩니다.
+
+두 방법 모두 처음 불러올 때 AutoCAD가 "서명되지 않은 파일" 경고를 띄우면 **로드** 또는 **항상 로드**를 누르세요.
 
 ## 사용법
 
@@ -110,6 +119,10 @@
 **4. 가로만 2배** — X 축척 핸들 클릭 → `2` Enter
 
 ![1D 축척](docs/images/usage-4-scale-ko.gif)
+
+**5. 그립을 모서리로 옮겨 그 점을 축으로 회전** — Ctrl을 누른 채 중심 핸들 클릭 → 모서리 클릭 → 회전 핸들 클릭 → `30` Enter
+
+![그립 위치 변경](docs/images/usage-5-relocate-ko.gif)
 
 ## 설정
 

@@ -14,11 +14,20 @@ Keywords: AutoCAD gumball, Rhino gumball for AutoCAD, 오토캐드 검볼, AutoC
 
 ## Download and install
 
-1. Download **HandyGrip-x.y.z.zip** from [Releases](https://github.com/Jaem-Shin/handygrip-gumball-for-autocad/releases).
-2. Close AutoCAD, unzip, and copy the **HandyGrip.bundle** folder into `%AppData%\Autodesk\ApplicationPlugins`.
+**Installer (recommended)**
+
+1. Download **HandyGrip-x.y.z-Setup.exe** from [Releases](https://github.com/Jaem-Shin/handygrip-gumball-for-autocad/releases) and run it.
+2. Pick English or 한국어 on the first screen. HandyGrip starts in that language.
 3. Start AutoCAD. When the status bar shows **HandyGrip ●**, you are ready. Select objects to show the grip.
 
-If AutoCAD warns that the file is unsigned, choose **Load** or **Always Load**. To uninstall, delete the `HandyGrip.bundle` folder. The UI starts in Korean; switch to English in `HGRIPSETTINGS` → General → Language.
+It installs for the current user only and needs no administrator rights. The installer is unsigned, so if Windows shows "Windows protected your PC", click **More info → Run anyway**. To uninstall, go to **Settings → Apps → Installed apps → HandyGrip (AutoCAD)**. Your settings are kept for the next install.
+
+**Manual install from the zip**
+
+1. Download **HandyGrip-x.y.z.zip**.
+2. Close AutoCAD, unzip, and copy the **HandyGrip.bundle** folder into `%AppData%\Autodesk\ApplicationPlugins`. To uninstall, delete that folder.
+
+Either way, if AutoCAD warns that the file is unsigned the first time, choose **Load** or **Always Load**. You can change the language later in `HGRIPSETTINGS` → General → Language.
 
 ## Features
 
@@ -52,6 +61,10 @@ If AutoCAD warns that the file is unsigned, choose **Load** or **Always Load**. 
 **4. Double the width only**: click the X scale handle → `2` Enter
 
 ![1D scale](docs/images/usage-4-scale-en.gif)
+
+**5. Move the grip to a corner and rotate around it**: Ctrl+click the center handle → click the corner → click the rotate handle → `30` Enter
+
+![Relocate the grip](docs/images/usage-5-relocate-en.gif)
 
 ## Handles and keys
 
