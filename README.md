@@ -4,13 +4,28 @@
 
 **Use Rhino's gumball in AutoCAD.** Many of us model in Rhino at school or in the studio, then have to finish, deliver and present drawings in AutoCAD. HandyGrip is a small plugin that lets you keep the gumball workflow you already know: select objects, then drag on-screen handles to move, rotate and scale them along exact axes, type exact values, snap to points and Alt-copy.
 
-Keywords: AutoCAD gumball, Rhino gumball for AutoCAD, 오토캐드 검볼, AutoCAD 2D gizmo, move rotate scale handles, AutoCAD plugin
+Keywords: AutoCAD gumball, AutoCAD 2021 2022 2023 2024 2025 2026, Rhino gumball for AutoCAD, 오토캐드 검볼, AutoCAD 2D gizmo, move rotate scale handles, AutoCAD plugin
 
 ![HandyGrip anatomy](docs/images/grip-anatomy-en.png)
 
-> **Requires AutoCAD 2025 or later (64-bit Windows, .NET 8).** AutoCAD 2024 and earlier are not supported.
+> **Works with AutoCAD 2021 – 2026 (64-bit Windows).** One installer covers every version: AutoCAD loads the right build by itself.
+> **AutoCAD LT is not supported.** See [Supported versions](#supported-versions).
 
 > HandyGrip is an independent project and is not affiliated with or endorsed by Robert McNeel & Associates. Rhino and Rhinoceros are trademarks of Robert McNeel & Associates; "Gumball" refers to the Rhino feature this tool is modeled after. AutoCAD is a trademark of Autodesk, Inc.
+
+## Supported versions
+
+| AutoCAD | Supported |
+| --- | --- |
+| AutoCAD 2025, 2026 | Yes |
+| AutoCAD 2021, 2022, 2023, 2024 | Yes |
+| AutoCAD 2020 and earlier | No |
+| AutoCAD LT (any version) | No |
+| AutoCAD for Mac, AutoCAD Web | No |
+
+Vertical products built on AutoCAD (Architecture, Mechanical, MEP, Civil 3D and so on) of the same years should also work, but are not tested.
+
+**Why not AutoCAD LT?** HandyGrip is a .NET plugin. AutoCAD LT does not load .NET plugins at all (only full AutoCAD does), so it cannot run in LT even after installing. This is a limit of LT itself, not something a future HandyGrip update can change.
 
 ## Download and install
 

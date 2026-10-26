@@ -6,11 +6,12 @@
 
 **A Rhino-style gumball for AutoCAD.** Select objects and drag on-screen handles to move, rotate and scale them along exact axes, type exact values, snap to points, and Alt-drag to copy, just like the Gumball in Rhino.
 
-키워드: AutoCAD gumball, Rhino gumball for AutoCAD, 오토캐드 검볼, AutoCAD 2D gizmo, move rotate scale handles
+키워드: AutoCAD gumball, AutoCAD 2021 2022 2023 2024 2025 2026, Rhino gumball for AutoCAD, 오토캐드 검볼, AutoCAD 2D gizmo, move rotate scale handles
 
 ![HandyGrip 구조](docs/images/grip-anatomy-ko.png)
 
-> **지원 버전: AutoCAD 2025 이상 (.NET 8).** 2024 이하(.NET Framework 4.8)에서는 로드되지 않습니다.
+> **지원 버전: AutoCAD 2021 ~ 2026 (Windows 64비트).** 설치 파일 하나로 모든 버전에 설치되고, AutoCAD가 자기 버전에 맞는 것을 알아서 불러옵니다.
+> **AutoCAD LT는 지원하지 않습니다.** [지원 버전](#지원-버전) 참고.
 
 > HandyGrip은 Robert McNeel & Associates와 관계없는 독립 프로젝트입니다. Rhino, Rhinoceros는 Robert McNeel & Associates의 상표이며, "Gumball"은 Rhino의 기능 이름으로 동작 방식을 설명하기 위해서만 씁니다.
 > HandyGrip is an independent project and is not affiliated with or endorsed by Robert McNeel & Associates. Rhino and Rhinoceros are trademarks of Robert McNeel & Associates; "Gumball" refers to the Rhino feature this tool is modeled after.
@@ -29,6 +30,20 @@
 | 그립 위치 | 기본은 객체 중심(블록은 삽입점). Ctrl 끌기·메뉴로 위치와 방향 변경 |
 | 켜기/끄기 | 상태 표시줄의 `HandyGrip ●` 버튼 또는 `HGRIP` 명령. 마지막 상태 기억 |
 | 설정 | 색상, 크기, 선 두께, 핸들 모양, 각도 스냅, 기본 방향, 언어(한국어/English) |
+
+## 지원 버전
+
+| AutoCAD | 지원 |
+| --- | --- |
+| AutoCAD 2025, 2026 | 지원 |
+| AutoCAD 2021, 2022, 2023, 2024 | 지원 |
+| AutoCAD 2020 이하 | 지원 안 함 |
+| AutoCAD LT (모든 버전) | 지원 안 함 |
+| AutoCAD for Mac, AutoCAD 웹 | 지원 안 함 |
+
+같은 연도의 AutoCAD 기반 제품(Architecture, Mechanical, MEP, Civil 3D 등)에서도 동작할 것으로 보지만 시험하지는 않았습니다.
+
+**AutoCAD LT는 왜 안 되나요?** HandyGrip은 .NET 플러그인입니다. AutoCAD LT는 .NET 플러그인을 불러오는 기능 자체가 없어서(정식 AutoCAD만 가능), 설치하더라도 LT에서는 동작하지 않습니다. HandyGrip을 업데이트해서 해결할 수 있는 문제가 아니라 LT 제품의 제한입니다.
 
 ## 내려받기와 설치
 
